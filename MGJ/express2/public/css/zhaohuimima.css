@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+.head {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #d1d1d1; }
+  .head .icon {
+    height: 60px;
+    width: 20%;
+    margin-left: 5%;
+    font-family: 'iconfont';
+    font-size: 20px;
+    line-height: 60px;
+    float: left; }
+  .head .title {
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    line-height: 60px;
+    margin-right: 25%;
+    font-family: 'Microsoft YaHei'; }
+
+.con {
+  width: 100%;
+  height: 41px;
+  text-align: center;
+  margin-top: 30px; }
+  .con .number {
+    width: 90%;
+    height: 41px;
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-bottom: 1px solid #ebebeb; }
+    .con .number .nmb {
+      width: 100%;
+      height: 40px;
+      border: none;
+      float: left;
+      line-height: 40px;
+      text-align: center;
+      outline: none; }
+    .con .number input[placeholder] {
+      font-size: 18px;
+      opacity: 0.3; }
+
+.next-step {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px; }
+  .next-step .text {
+    width: 90%;
+    height: 40px;
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    background: #ff1f5e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+    line-height: 40px; }

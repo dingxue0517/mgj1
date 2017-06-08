@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'iconfont';
+  /* project id 276341 */
+  src: url("//at.alicdn.com/t/font_6a1008dijj6y9zfr.eot");
+  src: url("//at.alicdn.com/t/font_6a1008dijj6y9zfr.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_6a1008dijj6y9zfr.woff") format("woff"), url("//at.alicdn.com/t/font_6a1008dijj6y9zfr.ttf") format("truetype"), url("//at.alicdn.com/t/font_6a1008dijj6y9zfr.svg#iconfont") format("svg"); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.head {
+  width: 100%;
+  height: 60px; }
+  .head .icon {
+    height: 60px;
+    width: 20%;
+    margin-left: 5%;
+    font-family: 'iconfont';
+    font-size: 20px;
+    line-height: 60px;
+    float: left; }
+  .head .title {
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    line-height: 60px;
+    font-family: 'Microsoft YaHei'; }
+  .head .icon1 {
+    height: 60px;
+    width: 20%;
+    font-family: 'iconfont';
+    font-size: 20px;
+    line-height: 60px;
+    float: right; }
+
+.con, .con1, .con2 {
+  width: 100%;
+  height: 41px;
+  text-align: center; }
+  .con .number, .con .number1, .con .number2, .con1 .number, .con1 .number1, .con1 .number2, .con2 .number, .con2 .number1, .con2 .number2 {
+    width: 90%;
+    height: 41px;
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-bottom: 1px solid #ebebeb; }
+    .con .number .nmb, .con .number .nmb1, .con .number .nmb2, .con .number1 .nmb, .con .number1 .nmb1, .con .number1 .nmb2, .con .number2 .nmb, .con .number2 .nmb1, .con .number2 .nmb2, .con1 .number .nmb, .con1 .number .nmb1, .con1 .number .nmb2, .con1 .number1 .nmb, .con1 .number1 .nmb1, .con1 .number1 .nmb2, .con1 .number2 .nmb, .con1 .number2 .nmb1, .con1 .number2 .nmb2, .con2 .number .nmb, .con2 .number .nmb1, .con2 .number .nmb2, .con2 .number1 .nmb, .con2 .number1 .nmb1, .con2 .number1 .nmb2, .con2 .number2 .nmb, .con2 .number2 .nmb1, .con2 .number2 .nmb2 {
+      width: 100%;
+      height: 40px;
+      border: none;
+      float: left;
+      line-height: 40px;
+      text-align: center;
+      outline: none; }
+    .con .number input[placeholder], .con .number1 input[placeholder], .con .number2 input[placeholder], .con1 .number input[placeholder], .con1 .number1 input[placeholder], .con1 .number2 input[placeholder], .con2 .number input[placeholder], .con2 .number1 input[placeholder], .con2 .number2 input[placeholder] {
+      font-size: 24px;
+      opacity: 0.3; }
+    .con .number .yan, .con .number1 .yan, .con .number2 .yan, .con1 .number .yan, .con1 .number1 .yan, .con1 .number2 .yan, .con2 .number .yan, .con2 .number1 .yan, .con2 .number2 .yan {
+      width: 100%;
+      height: 40px;
+      border: none;
+      float: left;
+      line-height: 40px;
+      text-align: center;
+      outline: none; }
+    .con .number .yzm, .con .number1 .yzm, .con .number2 .yzm, .con1 .number .yzm, .con1 .number1 .yzm, .con1 .number2 .yzm, .con2 .number .yzm, .con2 .number1 .yzm, .con2 .number2 .yzm {
+      width: 44%;
+      height: 40px;
+      border: none;
+      float: right;
+      line-height: 40px;
+      text-align: center;
+      color: #ff5777;
+      font-size: 14px;
+      font-family: 'Microsoft YaHei'; }
+
+.text {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  font-family: 'Microsoft YaHei';
+  line-height: 60px;
+  color: #666666; }
+
+.next-step {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px; }
+  .next-step .text {
+    width: 90%;
+    height: 40px;
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    background: #d2d2d2;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+    line-height: 40px; }
+
+.denglu-style {
+  width: 100%;
+  height: 50px; }
+  .denglu-style .style {
+    width: 33.3%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    font-size: 18px;
+    color: #666666;
+    text-align: center; }
+  .denglu-style .style1, .denglu-style .style2, .denglu-style .style3 {
+    width: 33.3%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    font-size: 28px;
+    color: #666666;
+    text-align: center;
+    font-family: 'iconfont'; }
+  .denglu-style .style1 {
+    color: #49a3eb; }
+  .denglu-style .style2 {
+    color: #68d724; }
+  .denglu-style .style3 {
+    color: #ff5065; }
+
+.yanzm {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin-top: 10px; }
+
+.menu {
+  width: 30%;
+  height: 51px;
+  position: fixed;
+  top: 60px;
+  right: 0;
+  font-family: 'iconfont';
+  background: #232323;
+  border-radius: 3px;
+  display: none; }
+  .menu .mima, .menu .help {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    color: #fff; }
+    .menu .mima .icon, .menu .help .icon {
+      width: 30%;
+      float: left;
+      height: 25px;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center; }
+    .menu .mima .text, .menu .help .text {
+      width: 70%;
+      float: left;
+      color: #fff;
+      height: 25px;
+      font-size: 14px;
+      line-height: 25px;
+      text-align: center; }
+  .menu .mima {
+    border-bottom: 1px solid #cecbcb; }
